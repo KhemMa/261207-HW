@@ -8,22 +8,22 @@
 
  a.nav-link:link
  {
-    color: #fb3f00;
+    color: #b9a39b;
     text-decoration: none;
  }
  a.nav-link:visited
  {
-    color: #3600fb;
+    color: #b9a39b;
     text-decoration: none;
  }
  a.nav-link:hover
  {
-    color: #fb3f00;
-    text-decoration: underline;
+    color: #151516;
+    text-decoration: none;
  }
  a.nav-link:active
  {
-    color: #fb3f00;
+    color: #b9a39b;
     text-decoration: none;
  }
 
@@ -38,8 +38,8 @@
  }
  
  h3{
-    font-family:arial; 
-    color:#ff0000;
+   font-family:'Courier New', Courier, monospace; 
+    color:#000000;
  }
 
  #output{
@@ -51,7 +51,12 @@
     font-family: Georgia;
     font-size: initial;
  }
-
+ body{
+   background-image: 'picture/whaam.png';
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
  .c1{
     font-family:arial;
     font-size: larger;
@@ -59,4 +64,9 @@
 
  .c2{
     color:#428328;
+ }
+
+ #op{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
  }
